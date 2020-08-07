@@ -1,4 +1,4 @@
-<nav aria-label="breadcrumb" class="mt-2">
+<nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
         <li class="breadcrumb-item"><a href="#">@yield('bread1')</a></li>
