@@ -7,7 +7,9 @@ use illuminate\Database\Eloquent\Model;
 class prodi extends Model
 {
     protected $table = 'prodi';
-    protected $primarykey = 'kode_prodi';
+    protected $primaryKey = 'kode_prodi';
+
+    protected $fillable = ['kode_prodi','nama_prodi','kaprodi'];
 
     public function mahasiswa()
     {
